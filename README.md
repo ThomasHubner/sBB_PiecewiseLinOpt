@@ -5,7 +5,7 @@ This repository is an accompaniment to the paper titled *Spatial branch-and-boun
 It contains the code used to conduct computational experiments. 
 Details and results can be found in Section 4 and the Appendix A3 of the above mentioned paper.
 
-The code can be found in the folder algorithms. It contains:
+The code can be found in the folder *Algorithms*. It contains:
   - main.py
   - instance_generation.py
   - sBB_main.py
