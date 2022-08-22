@@ -166,7 +166,7 @@ def branch_and_bound(m,n,plf_values,env_breakpoints_x,env_breakpoints_y,
     #Solve right and left child nodes
     for side in ["left","right"]:
 
-        #Solve the node by using function defined in "Branching"
+        #Solve the node by using function solve_node
         res,times = solve_node(side, m.copy(), var, con, branch_index, branch_point, n,
                               PLFs_breakpoints_x, PLFs_breakpoints_y,
                               pos, env_breakpoints_x.copy(), env_breakpoints_y.copy())
