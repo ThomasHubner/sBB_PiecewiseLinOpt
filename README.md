@@ -11,6 +11,7 @@ The code can be found in the folder *Algorithms*. It contains:
   - sBB_main.py
   - sBB_functions.py
   - gurobi_solver.py
+  - main_approximation.py
   - folder "Julia-MIP" which contains
     - main.jl
     - MIP_solver.jl
