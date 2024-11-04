@@ -24,4 +24,4 @@ These instances are then handed over to the sBB algorithm in *sBB_main.py*, whic
 Alternatively, those random instances are solved by Gurobi's built-in piecewise-linear function handler or Gurobi's built-in MINLP solver. Both are called by the functions within *gurobi_solver.py*.
 The problem information and the solve time of the sBB and Gurobis built-in methods are then written in a CSV file in the folder *Julia-MIP*.
 The code in *main.jl* reads the CSV file and hands the problem information to a function in *MIP_solver.jl*, which solves the problem by using predefined logarithmic MIP models.
-Finally, the solve times of all methods used are written in a CSV file in the folder *results*.
+Finally, the solve times of all methods used are written in a CSV file in the folder *results*. Running the code in *main_approximation.py* provides an analysis of the benefits of refining the piecewise-linear approximation of a nonlinear function by increasing the number of segments.
