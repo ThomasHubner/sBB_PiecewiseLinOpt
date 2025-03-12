@@ -3,7 +3,7 @@ Spatial branch-and-bound algorithm for piecewise-linear optimization problems.
 
 This repository is an accompaniment to the paper titled *Spatial branch-and-bound for nonconvex separable piecewise-linear optimization* by Thomas Hübner, Akshay Gupte and Steffen Rebennack.
 It contains the code used to conduct computational experiments. 
-Details and results can be found in Section 5 of the above-mentioned paper.
+Details and results can be found in the above-mentioned paper.
 
 The code can be found in the folder *Algorithms*. It contains:
   - main.py
